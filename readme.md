@@ -2,10 +2,13 @@
 DKBottomBarViewController is a delightfull way to create a bottom based navigation or search solution (or whatever you want to do with it) on iOS.
 
 ## Example
+<img src="screenshots/screen1.png" width="250" />  &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/screen2.png" width="250" /> <br>
 
 ## How To Get Started
 
 ## Installation
+Just drag and drop the files inside your project.<br>
+this project is written in swift so you might need to use an Umbrella Header for your Objective-C project.
 
 ## Architecture
 DKBottomBarViewController is used with a DKBottomBarViewControllerConfiguration object to define several properties.
