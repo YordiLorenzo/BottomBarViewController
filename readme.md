@@ -1,6 +1,8 @@
 # DKBottomBarViewController
 DKBottomBarViewController is a delightfull way to create a bottom based navigation or search solution (or whatever you want to do with it) on iOS.
 
+## Example
+
 ## How To Get Started
 
 ## Installation
