@@ -92,6 +92,12 @@ bottomBarViewController!.addToParentViewController(self)
 bottomBarViewController!.addGestureRecognizer()
 bottomBarViewController!.delegate = self
 ```
+
+If you want to use the provided delegate (and I recommend to do this), then don't forget to make you class conform to the DKBottomBarViewControllerDelegate protocol as follows :
+
+```swift
+class DKMainViewController: UIViewController, DKBottomBarViewControllerDelegate
+```
 To set the content view of the DKBottomBarViewController (the view that is contained inside this view controller) use `bottomBarViewController.setContentView(view : UIView)`
 After setting the content view, DKBottomBarViewControllerDelegate will call out to `bottomBarViewControllerDidSetContentView()` to provide you with the content view and the horizontal and vertical constraint used to set the content view.
 
